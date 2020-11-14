@@ -1,0 +1,40 @@
+/* Write some CSS below */
+body {
+	margin: 0;
+}
+
+.banner {
+	background-image:url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-size: 50px;
+	margin:0;
+
+}
+
+p {
+	color:white;
+	font-size: 25px;
+	opacity:.7;
+
+}
+
+button{
+	background-color:rgb(245,107,77,.9);
+	color:white;
+	padding: 18px 70px;
+	border-radius: 10px;
+	font-size: 20px;
+	border: none;
+	transition: .5s;
+	font-weight: bold;
+
+}
+
+
