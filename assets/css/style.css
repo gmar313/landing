@@ -1,6 +1,8 @@
 /* Write some CSS below */
 body {
 	margin: 0;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
 }
 
 .banner {
@@ -18,7 +20,7 @@ h1 {
 
 }
 
-p {
+.banner p {
 	color:white;
 	font-size: 25px;
 	opacity:.7;
@@ -37,4 +39,42 @@ button{
 
 }
 
+.wrap-cards{
+width: 900px;
+margin: 60px auto;
+}
+.wrap-cards h2{
+	letter-spacing: 3px;
+	font-size: 30px;
+}
+.container-cards {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
 
+.cards {
+	background: white;
+	box-shadow: 0 0 20px rgba(0,0,0,0.7);
+	border-radius: 8px;
+	padding: 40px;
+	margin: 20px 20px;
+}
+
+.cards img {
+	width: 200px;
+	height: 170px;
+
+}
+
+footer {
+	background: #6B6F6C;
+	color: white;
+	padding: 40px 250px;
+	
+}
+
+footer p {
+	margin: 0;
+}
